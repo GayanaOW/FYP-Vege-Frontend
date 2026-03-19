@@ -1,6 +1,6 @@
 "use client";
 
-import { useTheme } from "@/context/ThemeContext";
+import { useTheme } from "@/context/themeContext";
 
 function labelFor(theme: string) {
   if (theme === "dark") return "Dark";
