@@ -1,7 +1,7 @@
 "use client";
 
 import LanguageToggle from "@/components/layout/LanguageToggle";
-import ThemeToggle from "@/components/layout/ThemeToggle";
+import ThemeToggle from "@/components/layout/themeToggle";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function TopBar() {
