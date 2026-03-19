@@ -1,4 +1,4 @@
-const BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:5000";
+const BASE = process.env.NEXT_PUBLIC_API_BASE_URL || "fyp-vege-backend-production.up.railway.app";
 
 export async function getHealth() {
   const res = await fetch(`${BASE}/api/health`, { cache: "no-store" });
