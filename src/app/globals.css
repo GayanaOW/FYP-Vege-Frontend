@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   THEME TOKENS (CSS VARS)
+   ========================= */
+
+:root {
+  /* Light (default) */
+  --bg: #F8FAFC;
+  --surface: #FFFFFF;
+  --surface-2: #F1F5F9;
+  --border: #E2E8F0;
+
+  --text: #0F172A;
+  --text-2: #475569;
+  --muted: #94A3B8;
+
+  --accent: #22C55E;
+  --accent-hover: #16A34A;
+  --accent-soft: #DCFCE7;
+}
+
+html[data-theme="dark"] {
+  --bg: #0B0F14;
+  --surface: #161B22;
+  --surface-2: #1F2937;
+  --border: #1F2937;
+
+  --text: #E5E7EB;
+  --text-2: #9CA3AF;
+  --muted: #6B7280;
+
+  --accent: #22C55E;
+  --accent-hover: #16A34A;
+  --accent-soft: #052E16;
+}
+
+html[data-theme="soft"] {
+  /* Stronger green “vegetable” feel */
+  --bg: #F0FFF4;           /* minty page background */
+  --surface: #FFFFFF;      /* cards still white for readability */
+  --surface-2: #D1FAE5;    /* green-tinted hover/secondary surfaces */
+  --border: #A7F3D0;       /* green border */
+
+  --text: #064E3B;         /* deep leaf green */
+  --text-2: #065F46;       /* secondary green text */
+  --muted: #2F6F5F;        /* muted green/teal */
+
+  --accent: #16A34A;       /* strong vegetable green */
+  --accent-hover: #15803D; /* darker hover */
+  --accent-soft: #BBF7D0;  /* soft green highlight */
+}
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

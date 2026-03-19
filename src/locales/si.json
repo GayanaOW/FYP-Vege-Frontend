@@ -1,0 +1,79 @@
+{
+  "title": "ආනයන එළවළු පුවරුව",
+  "apiStatus": "API තත්ත්වය",
+  "backendOk": "බැක්එන්ඩ් හරි",
+  "checking": "පරීක්ෂා කරමින්...",
+  "appName": "ආනයන එළවළු පුවරුව",
+  "appTagline": "මිල නිරීක්ෂණය සහ අනාවැකි",
+  "navDashboard": "පුවරුව",
+  "navExplorer": "ගවේෂකය",
+  "navPredictions": "අනාවැකි",
+  "navAdmin": "පරිපාලක",
+  
+  "dashboardTitle": "පුවරුව",
+  "dashboardSubtitle": "අලුත්ම එළවළු මිල වෙනස්කම් සාරාංශයක්",
+
+  "filterVegetable": "එළවළු",
+  "filterMarket": "වෙළඳපොළ",
+  "filterPriceType": "සිල්ලර | තොග",
+  "filterDateRange": "දිනයේ පරාසය",
+
+  "kpiAvgPrice": "සාමාන්‍ය මිල",
+  "kpiWeeklyChange": "සතිපතා වෙනස",
+  "kpiTopRiser": "වැඩිම වැඩිවීම",
+  "kpiVolatility": "චලනය",
+
+  "chartPriceTrend": "මිල ප්‍රවණතාව",
+  "chartTopMovers": "ප්‍රමුඛ වෙනස්කම්",
+
+  "tableVegetable": "එළවළු",
+  "tableChange": "වෙනස",
+  "tableLatestPrice": "අවසන් මිල",
+
+  "lastUpdated": "අවසන් යාවත්කාලීන කිරීම",
+
+  "adminTitle": "පරිපාලන පැනලය",
+  "adminSubtitle": "දත්ත කට්ටල සහ මෝඩල් මෙහෙයුම් කළමනාකරණය",
+  "adminLoggedInAs": "ඇතුල්වී ඇත්තේ",
+  "adminRole": "භූමිකාව",
+  "adminLogout": "පිටවීම",
+  "adminChecking": "පරිපාලක සැසිය පරීක්ෂා කරමින්...",
+  "adminUnauthorized": "අවසර නැත. නැවත ලොග් වන්න.",
+  "adminActions": "ක්ෂණික ක්‍රියාමාර්ග",
+  "adminUpload": "දත්ත කට්ටලය උඩුගත කිරීම",
+  "adminRetrain": "මෝඩලය නැවත පුහුණු කිරීම",
+  "adminViewLogs": "ලේඛන බලන්න",
+
+  "adminRecentActivity": "මෑත පරිපාලන ක්‍රියාකාරකම්",
+  "adminRecentActivityHint": "නවතම ක්‍රියාකාරකම් (ලොගින්, උඩුගත කිරීම, නැවත පුහුණු කිරීම).",
+  "adminLogTime": "වේලාව",
+  "adminLogAction": "ක්‍රියාව",
+  "adminLogStatus": "තත්වය",
+  "adminLogsNote": "සටහන: පසුව ලේඛන බැක්එන්ඩ් එකෙන් ලබා ගනු ඇත.",
+
+
+  "adminUploadTitle": "දත්ත කට්ටලය උඩුගත කිරීම",
+  "adminUploadSubtitle": "Excel ගොනු උඩුගත කර පුහුණු කිරීමට සුදුසු දත්ත බවට පරිවර්තනය කරන්න",
+  "adminUploadVegFile": "එළවළු Excel (.xlsx)",
+  "adminUploadExtFile": "විනිමය අනුපාතය + ඉන්ධන මිල Excel (.xlsx)",
+  "adminUploadChoose": "ගොනුව තෝරන්න",
+  "adminUploadPreviewBtn": "පූර්වදර්ශනය සඳහා සකස් කරන්න",
+  "adminUploadSavingBtn": "සුරකිමින්...",
+  "adminUploadSaveBtn": "තහවුරු කර DB වෙත සුරකින්න",
+  "adminUploadStats": "සාරාංශය",
+  "adminUploadPreview": "පූර්වදර්ශනය (මුල් පෙළ කිහිපය)",
+  "adminUploadNoPreview": "ගොනු දෙකම උඩුගත කර පූර්වදර්ශනය ලබාගන්න.",
+  "adminUploadSuccess": "සාර්ථකව සුරකින ලදී",
+  "adminUploadError": "අසමත් විය. ගොනු පරීක්ෂා කර නැවත උත්සාහ කරන්න.",
+
+  "adminRetrainTitle": "නැවත පුහුණු කිරීම / අනාවැකි ජනනය",
+  "adminRetrainDesc":  "එළවළු තෝරා, භාවිතා වන මොඩලය පරීක්ෂා කර, දින ගණන තෝරා අනාවැකි ජනනය කර දත්ත සමුදායට සුරකින්න.",
+  
+  "kpiLowestForecast": "අවම අනාවැකි මිල",
+  "kpiForecastedVegetables": "අනාවැකි සහිත එළවළු ගණන"
+
+}
+
+
+
+

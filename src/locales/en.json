@@ -1,0 +1,81 @@
+{
+  "title": "ImportVeg Dashboard",
+  "apiStatus": "API Status",
+  "backendOk": "Backend OK",
+  "checking": "Checking...",
+  "appName": "ImportVeg Dashboard",
+  "appTagline": "Price Monitoring & Forecasts",
+  "navDashboard": "Dashboard",
+  "navExplorer": "Explorer",
+  "navPredictions": "Predictions",
+  "navAdmin": "Admin",
+  
+  "dashboardTitle": "Dashboard",
+  "dashboardSubtitle": "Overview of recent imported vegetable price movements",
+
+  "filterVegetable": "Vegetable",
+  "filterMarket": "Market",
+  "filterPriceType": "Retail | Wholesale",
+  "filterDateRange": "Date Range",
+
+  "kpiAvgPrice": "Average Price",
+  "kpiWeeklyChange": "Weekly Change",
+  "kpiTopRiser": "Top Riser",
+  "kpiVolatility": "Volatility",
+
+  "chartPriceTrend": "Price Trend",
+  "chartTopMovers": "Top Movers",
+
+  "tableVegetable": "Vegetable",
+  "tableChange": "Change",
+  "tableLatestPrice": "Latest Price",
+
+  "lastUpdated": "Last updated",
+
+  "adminTitle": "Admin Panel",
+  "adminSubtitle": "Manage dataset and model operations",
+  "adminLoggedInAs": "Logged in as",
+  "adminRole": "Role",
+  "adminLogout": "Logout",
+  "adminChecking": "Checking admin session...",
+  "adminUnauthorized": "Unauthorized. Please login again.",
+  "adminActions": "Quick Actions",
+  "adminUpload": "Upload Dataset",
+  "adminRetrain": "Retrain Model",
+  "adminViewLogs": "View Logs",
+
+  "adminRecentActivity": "Recent Admin Activity",
+  "adminRecentActivityHint": "Latest admin actions (login, upload, retrain).",
+  "adminLogTime": "Time",
+  "adminLogAction": "Action",
+  "adminLogStatus": "Status",
+  "adminLogsNote": "Note: Logs will be loaded from backend later.",
+
+
+  "adminUploadTitle": "Upload Dataset",
+  "adminUploadSubtitle": "Upload raw Excel files and preprocess into train-ready dataset",
+  "adminUploadVegFile": "Vegetables Excel (.xlsx)",
+  "adminUploadExtFile": "Exchange Rate + Fuel Excel (.xlsx)",
+  "adminUploadChoose": "Choose file",
+  "adminUploadPreviewBtn": "Preprocess Preview",
+  "adminUploadSavingBtn": "Saving...",
+  "adminUploadSaveBtn": "Confirm & Save to DB",
+  "adminUploadStats": "Preprocess Summary",
+  "adminUploadPreview": "Preview (first rows)",
+  "adminUploadNoPreview": "Upload both files and generate preview.",
+  "adminUploadSuccess": "Saved successfully",
+  "adminUploadError": "Upload failed. Please check files and try again.",
+
+  "adminRetrainTitle": "Retrain / Generate Forecasts",
+  "adminRetrainDesc":  "Select a vegetable, confirm the model, choose a horizon, and generate forecasts saved to the database.",
+
+  "kpiLowestForecast": "Lowest Forecast",
+  "kpiForecastedVegetables": "Forecasted Import Vegetables"
+
+}
+
+
+
+
+
+
